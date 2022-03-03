@@ -1,0 +1,15 @@
+
+/* Version mobile */
+nav {
+    position: fixed;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0 10 5px;
+    background-color: black;
+}
+@media screen and (min-width: 480px) {
+    nav {
+        flex-direction: ;
+    }
+}
