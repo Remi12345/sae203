@@ -24,7 +24,7 @@ a {
 }
 #div {
     background-color: rgb(156, 129, 182);
-    margin-left: 5% 60% 5% 5%;
+    margin: 5% 60% 5% 5%;
     border-radius: 5px;
 }
 a:hover {
