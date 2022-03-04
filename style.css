@@ -24,8 +24,9 @@ a {
 }
 #div {
     background-color: rgb(156, 129, 182);
-    margin: 5% 60% 5% 5%;
-    border-radius: 5px;
+    margin: 2% 60% 5% 2%;
+    padding: 1%;
+    border-radius: 15px;
 }
 a:hover {
     border-left: 3px solid white;
