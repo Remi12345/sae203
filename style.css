@@ -30,7 +30,7 @@ a {
     border-radius: 15px;
 
 }
-@media screen and (max-width:992px) {
+@media screen and (max-width:800px) {
        .divs { 
            display: flex;
 }
