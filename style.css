@@ -6,12 +6,17 @@ nav {
 }
 html {
     margin: 0;
+    font-size: 22px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 a {
     margin: 0 20px;
     color: white;
     list-style: none;
     text-decoration: none;
+}
+.classement {
+
 }
 a:hover {
     border-left: 3px solid white;
