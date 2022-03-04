@@ -1,4 +1,7 @@
 <?php
+require 'debut_html.php';
+require 'header.php';
+
 $mabd = new PDO('mysql:host=localhost;dbname=sae203;charset=UTF8;', 'sae203', 'MotDePasseFortDeVotreChoix');
 $mabd->query('SET NAMES utf8;');
 $req = "SELECT * FROM meilleurs_joueurs_nba INNER JOIN franchises_nba ON meilleurs_joueurs_nba._franchises_id = franchises_nba.franchises_id";

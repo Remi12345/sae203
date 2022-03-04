@@ -16,7 +16,7 @@ a {
     text-decoration: none;
 }
 .classement {
-
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 a:hover {
     border-left: 3px solid white;
