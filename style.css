@@ -1,16 +1,17 @@
 nav {
     width: 100%;
-    padding: 10px 0 15 5px;
+    padding: 10px 0 10 10px;
     background-color: rgb(65, 45, 158);
 }
 a {
     color: white;
     list-style: none;
+    text-decoration: none;
 }
 a:hover {
     border-left: 3px solid white;
     transition-duration: 0.4s;
-    text-decoration: none;
+
 }
 h1 {
     font-size: 30px;
