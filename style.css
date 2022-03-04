@@ -3,7 +3,6 @@ nav {
     padding: 10px 0 10 10px;
     background-color: rgb(65, 45, 158);
     justify-content: center;
-
 }
 html {
     margin: 0;
@@ -29,10 +28,7 @@ a {
     padding-left: 3%;
 }
 #div {
-    background-color: rgb(156, 129, 182);
-    margin: 2% 60% 5% 10%;
-    border-radius: 15px;
-    justify-content:center;
+
     
 }
 form {
@@ -47,7 +43,11 @@ form {
 }
 
 .divs { 
-    margin-bottom: 10px;
+    margin-bottom: 10px;    
+    background-color: rgb(156, 129, 182);
+    margin: 2% 60% 5% 10%;
+    border-radius: 15px;
+    justify-content:center;
 }
 a:hover {
     border-left: 3px solid white;
