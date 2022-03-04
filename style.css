@@ -11,6 +11,10 @@ nav {
 a {
     color: white;
 }
+h1 {
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 @media screen and (min-width: 480px) {
     nav {
         flex-direction:column;
