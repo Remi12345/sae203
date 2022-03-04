@@ -1,19 +1,10 @@
-<!DOCTYPE html>
-<html lang="fr">
-  <head>
-    <meta charset="UTF-8">
-    <title>Accueil</title>
-    <meta name="description" content="">
+
     <link rel="stylesheet" href="style.css">
-  </head>
-  <header>
-      <nav>
-      <a href="#">Accueil</a>
-      <a href="listing.php">Classement</a>
-      <a href="#">Contact</a>
-      <a href="#">Bientôt</a>
-      </nav>
-  </header>
+    <?php 
+    require 'debut_html.php';
+    require 'header.php';
+    ?>
 <body>
+  
 </body>
 </html>
