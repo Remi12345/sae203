@@ -1,11 +1,5 @@
-<!DOCTYPE html>
-<html lang="fr">
-  <head>
-    <meta charset="UTF-8">
-    <title>Accueil</title>
-    <meta name="description" content="">
-  </head>
-  <header>
+<link rel="stylesheet" href="style.css">
+<header>
       <nav>
       <a href="#">Accueil</a>
       <a href="listing.php">Classement</a>

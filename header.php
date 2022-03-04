@@ -1,3 +1,4 @@
+<link rel="stylesheet" href="style.css">
 <header>
       <nav>
       <a href="#">Accueil</a>
