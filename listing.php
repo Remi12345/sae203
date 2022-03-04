@@ -9,10 +9,10 @@ foreach ($resultat as $value) {
 }
 foreach ($resultat as $value) {
     echo '<div class="album">' ;
-    echo '<h3>'.$value['bd_titre'] . '</h3>;
-    echo '<p>tarif: ' . $value['bd_prix'] . ' euro </p>';
-    echo '<p class="page">' . $value['bd_page'] . ' pages </p>';
-    echo '<p class='auteur'> auteur: ' . $value['auteur_nom'] . '</p>';
+    echo '<h3>'.$value['jnba_classement'] . '</h3>';
+    echo '<p>' . $value['jnba_poste'] . '</p>';
+    echo '<p class="page">' . $value['jnba_nationalite'] . '</p>';
+    echo '<p class="auteur">' . $value['franchises_nom'] . '</p>';
     echo '</div>';
 }
 ?>
