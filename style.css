@@ -29,9 +29,9 @@ a {
     padding-left: 1%;
     border-radius: 15px;
     justify-content:center;
-    margin: auto;
+
 }
-@media screen and (max-width:800px) {
+@media screen and (max-width:1400px) {
        .divs { 
            display: flex;
            margin-bottom: 10px;
