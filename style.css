@@ -21,7 +21,9 @@ a {
 a:hover {
     border-left: 3px solid white;
     transition-duration: 0.4s;
-
+}
+.image {
+    width: 50px;
 }
 h1 {
     font-size: 30px;
