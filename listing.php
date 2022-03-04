@@ -15,6 +15,7 @@ foreach ($resultat as $value) {
     echo '<div class="divs">'.'<br>'.'<p class="classement">'. $value['jnba_poste'].'</div>';
     echo '<div class="divs">'.'<br>' .'<p class="classement">'. $value['jnba_nationalite'].'</div>';
     echo '<div class="divs">'.'<br/>'.'<img class="image" src="photos/'.$value['jnba_photo'].'">'.'</div>'.'<hr>';
+}
 ?>
 </div>
 </html>
