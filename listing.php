@@ -11,6 +11,6 @@ foreach ($resultat as $value) {
     echo '<br>' .'<p class="classement">'. $value['franchises_nom'];
     echo '<br>'.'<p class="classement">'. $value['jnba_poste'];
     echo '<br>' .'<p class="classement">'. $value['jnba_nationalite'];
-    echo '<img class="image" src="photos/'.$value['jnba_photo'].'">'.'<hr>';
+    echo '<br/>'.'<img class="image" src="photos/'.$value['jnba_photo'].'">'.'<hr>';
 }
 ?>
