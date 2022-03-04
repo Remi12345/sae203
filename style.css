@@ -28,7 +28,10 @@ a {
     padding-left: 3%;
 }
 #div {
-
+    background-color: rgb(156, 129, 182);
+    margin: 2% 60% 5% 10%;
+    border-radius: 15px;
+    justify-content:center;
     
 }
 form {
@@ -43,11 +46,7 @@ form {
 }
 
 .divs { 
-    margin-bottom: 10px;    
-    background-color: rgb(156, 129, 182);
-    margin: 2% 60% 5% 10%;
-    border-radius: 15px;
-    justify-content:center;
+    margin-bottom: 10px;
 }
 a:hover {
     border-left: 3px solid white;
