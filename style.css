@@ -16,3 +16,6 @@ a {
         flex-direction:column;
     }
 }
+html {
+    background-color: black;
+}
