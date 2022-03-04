@@ -28,7 +28,12 @@ a {
     margin: 2% 60% 5% 2%;
     padding: 1%;
     border-radius: 15px;
-    display: flex;
+
+}
+@media screen and (max-width:992px) {
+       .divs { 
+           display: flex;
+}
 }
 a:hover {
     border-left: 3px solid white;

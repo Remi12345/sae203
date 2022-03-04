@@ -10,12 +10,11 @@ $mabd->query('SET NAMES utf8;');
 $req = "SELECT * FROM meilleurs_joueurs_nba INNER JOIN franchises_nba ON meilleurs_joueurs_nba._franchises_id = franchises_nba.franchises_id";
 $resultat = $mabd->query($req);
 foreach ($resultat as $value) {
-    echo $value['jnba_classement'] .'e'.' - ' . $value['jnba_nom'];
-    echo '<br>' .'<p class="classements">'. $value['franchises_nom'];
-    echo '<br>'.'<p class="classement">'. $value['jnba_poste'];
-    echo '<br>' .'<p class="classement">'. $value['jnba_nationalite'];
-    echo '<br/>'.'<img class="image" src="photos/'.$value['jnba_photo'].'">'.'<hr>';
-}
+    echo '<div class="divs">'.$value['jnba_classement'] .'e'.' - ' . $value['jnba_nom'].'</div>';
+    echo '<div class="divs">'.'<br>' .'<p class="classements">'. $value['franchises_nom'].'</div>';
+    echo '<div class="divs">'.'<br>'.'<p class="classement">'. $value['jnba_poste'].'</div>';
+    echo '<div class="divs">'.'<br>' .'<p class="classement">'. $value['jnba_nationalite'].'</div>';
+    echo '<div class="divs">'.'<br/>'.'<img class="image" src="photos/'.$value['jnba_photo'].'">'.'</div>'.'<hr>';
 ?>
 </div>
 </html>
