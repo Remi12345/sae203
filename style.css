@@ -29,7 +29,10 @@ a {
     padding-left: 1%;
     border-radius: 15px;
     justify-content:center ;
-
+    position: fixed;
+left: 50%;
+top: 50%;
+transform: translate(-50%, -50%);
 }
 @media screen and (max-width:800px) {
        .divs { 
