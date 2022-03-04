@@ -16,6 +16,7 @@ a {
     list-style: none;
     text-decoration: none;
     justify-content: center;
+    padding-left: 3px;
 }
 .classements {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
