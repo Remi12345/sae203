@@ -2,8 +2,10 @@ nav {
     width: 100%;
     padding: 10px 0 10 10px;
     background-color: rgb(65, 45, 158);
+    justify-content: center;
 }
 a {
+    margin: 0 20px;
     color: white;
     list-style: none;
     text-decoration: none;
