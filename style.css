@@ -8,8 +8,11 @@ nav {
     padding: 10px 0 10 5px;
     background-color: rgb(65, 45, 158);
 }
+a {
+    color: red;
+}
 @media screen and (min-width: 480px) {
     nav {
-        flex-direction: ;
+        flex-direction:column;
     }
 }
