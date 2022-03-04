@@ -21,3 +21,4 @@
 
     echo '<p>'.$_POST['email'].'</p>'."\n";
     echo '<p>'.$_POST['mdp'].'</p>'."\n";
+    ?>
