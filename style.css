@@ -19,12 +19,13 @@ a {
 }
 .classements {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 3%;
 }
 .classement {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 15px;
     padding-bottom: -1%;
-    padding-left: 1%;
+    padding-left: 3%;
 }
 #div {
     background-color: rgb(156, 129, 182);
