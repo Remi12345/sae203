@@ -6,9 +6,9 @@ require 'header.php';
 ?>
 
 <form action="" method="">
-            <label for="meilleurs_joueurs_nba">nom du personnage :</label>
-            <input type="search" autocomplete="off" list="mielleurs_joueurs_nba" id="joueurs" name="joeuurs"/>
-            <datalist id="joueur">
+            <label for="jnba_nom">nom du personnage :</label>
+            <input type="search" autocomplete="off" list="meilleurs_joueurs_nba" id="jnba_nom" name="joueurs"/>
+            <datalist id="meilleurs_joueurs_nba">
             <option value="Lebron James">
             <option value="Michael Jordan">
             <option value="Wilt Chamberlain">
