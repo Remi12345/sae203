@@ -5,11 +5,12 @@ $req = "SELECT * FROM meilleurs_joueurs_nba INNER JOIN franchises_nba ON meilleu
 $resultat = $mabd->query($req);
 foreach ($resultat as $value) {
     echo $value['jnba_classement'] . ' , ' . $value['jnba_nom'];
-    echo '<br> franchises_nba: ' . $value['franchises_nom']. '<hr>';
+    echo '<br>' . $value['franchises_nom']. '<hr>';
 }
 foreach ($resultat as $value) {
     echo '<div class="album">' ;
     echo '<h3>'.$value['jnba_classement'] . '</h3>';
+    echo '<img class="image" src="photos/'.$value['jnba_photo'].'">';
     echo '<p>' . $value['jnba_poste'] . '</p>';
     echo '<p class="page">' . $value['jnba_nationalite'] . '</p>';
     echo '<p class="auteur">' . $value['franchises_nom'] . '</p>';
