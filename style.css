@@ -1,8 +1,9 @@
 nav {
-    width: 100%;
+    width: 150%;
     padding: 10px 0 10 10px;
     background-color: rgb(65, 45, 158);
     justify-content: center;
+
 }
 html {
     margin: 0;
@@ -25,20 +26,21 @@ a {
 }
 #div {
     background-color: rgb(156, 129, 182);
-    margin: 2% 60% 5% 2%;
+    margin: 2% 60% 5% 10%;
     padding-left: 1%;
     border-radius: 15px;
     justify-content:center;
-
+    
 }
-@media screen and (max-width:1400px) {
+@media screen and (max-width:800px) {
        .divs { 
            display: flex;
            margin-bottom: 10px;
 }
+}
+
 .divs { 
     margin-bottom: 10px;
-}
 }
 a:hover {
     border-left: 3px solid white;
