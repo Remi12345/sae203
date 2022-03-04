@@ -21,18 +21,22 @@ a {
 .classement {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 15px;
-    margin-bottom: 10px;
+
 }
 #div {
     background-color: rgb(156, 129, 182);
     margin: 2% 60% 5% 2%;
-    padding: 1%;
+    padding-left: 1%;
     border-radius: 15px;
 
 }
 @media screen and (max-width:800px) {
        .divs { 
            display: flex;
+           margin-bottom: 10px;
+}
+.divs { 
+    margin-bottom: 10px;
 }
 }
 a:hover {
