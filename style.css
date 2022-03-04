@@ -5,6 +5,7 @@ nav {
 }
 a {
     color: white;
+    list-style: none;
 }
 a:hover {
     border-left: 3px solid white;
