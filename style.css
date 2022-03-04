@@ -15,8 +15,12 @@ a {
     list-style: none;
     text-decoration: none;
 }
+.classement1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 .classement {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
 }
 a:hover {
     border-left: 3px solid white;
