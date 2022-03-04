@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>Accueil</title>
     <meta name="description" content="">
+    <link rel="stylesheet" href="style.css">
   </head>
   <header>
       <nav>
@@ -14,5 +15,6 @@
       </nav>
   </header>
 <body>
+  okokokokokokokokokokokokokokok
 </body>
 </html>
