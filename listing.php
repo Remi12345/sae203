@@ -10,6 +10,4 @@ foreach ($resultat as $value) {
     echo '<br>' .'<p class="classement">'. $value['jnba_nationalite']. '<hr>';
     echo '<img class="image" src="photos/'.$value['jnba_photo'].'">';
 }
-foreach ($resultat as $value) {
-   
 ?>
