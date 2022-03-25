@@ -1,9 +1,12 @@
 <link rel="stylesheet" href="style.css">
-<header>
-      <nav>
-      <a href="index.php">Accueil</a>
-      <a href="listing.php">Classement</a>
-      <a href="form_recherche.php">Recherche</a>
-      <a href="#">Bientôt</a>
-      </nav>
-  </header>
+<header>  
+  <nav>                        
+                                      <ul class="">
+                                         <li class=""><a href="index.php">Accueil</a></li>
+                                        <li class=""><a href="listing.php">Classement</a></li>
+                                        <li class=""><a href="form_recherche.php">Recherche</a></li>
+                                        <li class=""><a href="admin/admin.php">Admin</a></li>
+                                      </ul>            
+</nav>  
+</header>
+<hr />
